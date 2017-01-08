@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/BYekan-webfont.eot');
+    src: url('../fonts/BYekan-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BYekan-webfont.woff2') format('woff2'),
+    url('../fonts/BYekan-webfont.woff') format('woff'),
+    url('../fonts/BYekan-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: yekan;
+}
+
+.navbar {
+    border: 0px solid transparent;
+    border-radius: 0px;
+}
+.conntent-main{
+    background: #fff;padding: 15px; margin-bottom: 15px;
+}
+@media (min-width: 768px){
+  #wrapper {padding-right: 225px; padding-left: 0;}
+  .side-nav{right: 0;left: auto;}
+}

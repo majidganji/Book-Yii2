@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !-f
+RewriteCond %{HTTP_REFERER} !-d
+RewriteRule ./(png|jpg)$ - [F]
